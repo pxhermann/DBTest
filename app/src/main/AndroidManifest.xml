@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="cz.hermann.android.DBTest">
+    <application android:icon="@drawable/ic_app" android:label="@string/app_name">
+        <activity android:name="ActMain"
+                  android:label="@string/app_name" android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|fontScale">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="ActSqlTest" android:windowSoftInputMode="stateUnchanged"></activity>
+        <activity android:name="ActDataEdit"></activity>
+    </application>
+</manifest>

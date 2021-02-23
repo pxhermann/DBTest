@@ -1,0 +1,44 @@
+cz/hermann/android/DBTest/DBase.java
+ cz.hermann.android.DBTest.DBEngine
+ cz.hermann.android.DBTest.DBase
+cz/hermann/android/DBTest/DlgNumPad.java
+ cz.hermann.android.DBTest.DlgNumPad
+ cz.hermann.android.DBTest.DlgNumPad$1
+ cz.hermann.android.DBTest.DlgNumPad$OKListener
+cz/hermann/android/DBTest/ActDataEdit.java
+ cz.hermann.android.DBTest.ActDataEdit
+ cz.hermann.android.DBTest.ActDataEdit$1
+ cz.hermann.android.DBTest.ActDataEdit$2
+ cz.hermann.android.DBTest.ActDataEdit$3
+ cz.hermann.android.DBTest.ActDataEdit$4
+cz/hermann/android/DBTest/ActSqlTest.java
+ cz.hermann.android.DBTest.ActSqlTest
+ cz.hermann.android.DBTest.ActSqlTest$1
+ cz.hermann.android.DBTest.ActSqlTest$2
+ cz.hermann.android.DBTest.ActSqlTest$3
+cz/hermann/android/DBTest/ActMain.java
+ cz.hermann.android.DBTest.ActMain
+ cz.hermann.android.DBTest.ActMain$1
+ cz.hermann.android.DBTest.ActMain$2
+ cz.hermann.android.DBTest.ActMain$2$1
+ cz.hermann.android.DBTest.ActMain$2$2
+ cz.hermann.android.DBTest.ActMain$TaskInsertSpeed
+ cz.hermann.android.DBTest.ActMain$TaskInsertSpeed$1
+ cz.hermann.android.DBTest.ActMain$TaskInsertType
+ cz.hermann.android.DBTest.ActMain$TaskInsertType$1
+ cz.hermann.android.DBTest.NumberViewBinder
+cz/hermann/android/DBTest/BuildConfig.java
+ cz.hermann.android.DBTest.BuildConfig
+cz/hermann/android/DBTest/GM.java
+ cz.hermann.android.DBTest.GM
+ cz.hermann.android.DBTest.GM$1
+cz/hermann/android/DBTest/DlgInsertSpeed.java
+ cz.hermann.android.DBTest.DlgInsertSpeed
+ cz.hermann.android.DBTest.DlgInsertSpeed$1
+ cz.hermann.android.DBTest.DlgInsertSpeed$OKListener
+cz/hermann/android/DBTest/DlgAbout.java
+ cz.hermann.android.DBTest.DlgAbout
+cz/hermann/android/DBTest/DlgInsertType.java
+ cz.hermann.android.DBTest.DlgInsertType
+ cz.hermann.android.DBTest.DlgInsertType$1
+ cz.hermann.android.DBTest.DlgInsertType$OKListener

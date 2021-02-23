@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:weightSum="1" android:background="#333333">
+    <TextView android:text="TextView" android:layout_height="wrap_content" android:layout_width="fill_parent" android:textStyle="bold" android:gravity="center" android:textSize="25sp" android:layout_marginTop="10sp" android:id="@+id/tvName"></TextView>
+    <TextView android:layout_height="wrap_content" android:text="0" android:textColor="#000000" android:background="#ffffff" android:layout_width="fill_parent" android:gravity="right" android:paddingRight="3dp" android:textSize="35sp" android:layout_marginBottom="20sp" android:layout_marginTop="10sp" android:layout_marginLeft="5sp" android:layout_marginRight="5sp" android:id="@+id/tvQty"></TextView>
+    <TableLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:stretchColumns="*">
+        <TableRow android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1" android:paddingBottom="5sp">
+            <Button android:id="@+id/btn7" android:textStyle="bold" android:layout_height="fill_parent" android:layout_weight="1" android:layout_width="wrap_content" android:text="7" android:textSize="30sp"></Button>
+            <Button android:id="@+id/btn8" android:textStyle="bold" android:layout_height="fill_parent" android:layout_weight="1" android:layout_width="wrap_content" android:text="8" android:textSize="30sp"></Button>
+            <Button android:id="@+id/btn9" android:textStyle="bold" android:layout_height="fill_parent" android:layout_weight="1" android:layout_width="wrap_content" android:text="9" android:textSize="30sp"></Button>
+            <Button android:id="@+id/btnBack" android:text="&lt;-" android:layout_height="fill_parent" android:layout_weight="1" android:layout_width="1sp" android:textSize="30sp"></Button>
+        </TableRow>
+        <TableRow android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1" android:paddingBottom="5sp">
+            <Button android:id="@+id/btn4" android:text="4" android:textStyle="bold" android:layout_height="fill_parent" android:layout_weight="1" android:layout_width="wrap_content" android:textSize="30sp"></Button>
+            <Button android:id="@+id/btn5" android:text="5" android:textStyle="bold" android:layout_height="fill_parent" android:layout_weight="1" android:layout_width="wrap_content" android:textSize="30sp"></Button>
+            <Button android:id="@+id/btn6" android:text="6" android:textStyle="bold" android:layout_height="fill_parent" android:layout_weight="1" android:layout_width="wrap_content" android:textSize="30sp"></Button>
+            <Button android:text="C" android:id="@+id/btnClear" android:textStyle="bold" android:layout_height="fill_parent" android:layout_weight="1" android:layout_width="wrap_content" android:textSize="30sp"></Button>
+        </TableRow>
+        <TableRow android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1" android:paddingBottom="5sp">
+            <Button android:id="@+id/btn1" android:text="1" android:textStyle="bold" android:layout_height="fill_parent" android:layout_weight="1" android:layout_width="wrap_content" android:textSize="30sp"></Button>
+            <Button android:id="@+id/btn2" android:text="2" android:textStyle="bold" android:layout_height="fill_parent" android:layout_weight="1" android:layout_width="wrap_content" android:textSize="30sp"></Button>
+            <Button android:id="@+id/btn3" android:text="3" android:textStyle="bold" android:layout_height="fill_parent" android:layout_weight="1" android:layout_width="wrap_content" android:textSize="30sp"></Button>
+            <Button android:text="Esc" android:id="@+id/btnEsc" android:textStyle="bold" android:layout_height="fill_parent" android:layout_weight="1" android:layout_width="1sp" android:textColor="#CC0000" android:textSize="20sp"></Button>
+        </TableRow>
+        <TableRow android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1" android:paddingBottom="5sp">
+            <Button android:id="@+id/btn0" android:text="0" android:textStyle="bold" android:layout_height="fill_parent" android:layout_weight="1" android:layout_width="wrap_content" android:textSize="30sp"></Button>
+            <Button android:id="@+id/btnDot" android:text="." android:textStyle="bold" android:layout_height="fill_parent" android:layout_weight="1" android:layout_width="wrap_content" android:textSize="30sp"></Button>
+            <Button android:id="@+id/btnEnter" android:text="Enter" android:textStyle="bold" android:layout_height="fill_parent" android:layout_weight="1" android:layout_width="wrap_content" android:layout_span="2" android:textColor="#00CC00" android:textSize="20sp"></Button>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "D:\\Work_Android\\DBTest\\app\\build\\intermediates\\res\\merged\\debug\\layout-land_act_sqltest.xml.flat",
+        "source": "D:\\Work_Android\\DBTest\\app\\src\\main\\res\\layout-land\\act_sqltest.xml"
+    },
+    {
+        "merged": "D:\\Work_Android\\DBTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_numpad.xml.flat",
+        "source": "D:\\Work_Android\\DBTest\\app\\src\\main\\res\\layout\\numpad.xml"
+    },
+    {
+        "merged": "D:\\Work_Android\\DBTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_about.xml.flat",
+        "source": "D:\\Work_Android\\DBTest\\app\\src\\main\\res\\layout\\about.xml"
+    },
+    {
+        "merged": "D:\\Work_Android\\DBTest\\app\\build\\intermediates\\res\\merged\\debug\\menu_listitem.xml.flat",
+        "source": "D:\\Work_Android\\DBTest\\app\\src\\main\\res\\menu\\listitem.xml"
+    },
+    {
+        "merged": "D:\\Work_Android\\DBTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_act_dataedit.xml.flat",
+        "source": "D:\\Work_Android\\DBTest\\app\\src\\main\\res\\layout\\act_dataedit.xml"
+    },
+    {
+        "merged": "D:\\Work_Android\\DBTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_app.png.flat",
+        "source": "D:\\Work_Android\\DBTest\\app\\src\\main\\res\\drawable-hdpi\\ic_app.png"
+    },
+    {
+        "merged": "D:\\Work_Android\\DBTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_act_main.xml.flat",
+        "source": "D:\\Work_Android\\DBTest\\app\\src\\main\\res\\layout\\act_main.xml"
+    },
+    {
+        "merged": "D:\\Work_Android\\DBTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_act_sqltest.xml.flat",
+        "source": "D:\\Work_Android\\DBTest\\app\\src\\main\\res\\layout\\act_sqltest.xml"
+    },
+    {
+        "merged": "D:\\Work_Android\\DBTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_inserttype.xml.flat",
+        "source": "D:\\Work_Android\\DBTest\\app\\src\\main\\res\\layout\\inserttype.xml"
+    },
+    {
+        "merged": "D:\\Work_Android\\DBTest\\app\\build\\intermediates\\res\\merged\\debug\\menu_main.xml.flat",
+        "source": "D:\\Work_Android\\DBTest\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "D:\\Work_Android\\DBTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_app.png.flat",
+        "source": "D:\\Work_Android\\DBTest\\app\\src\\main\\res\\drawable-ldpi\\ic_app.png"
+    },
+    {
+        "merged": "D:\\Work_Android\\DBTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_row.xml.flat",
+        "source": "D:\\Work_Android\\DBTest\\app\\src\\main\\res\\layout\\list_row.xml"
+    },
+    {
+        "merged": "D:\\Work_Android\\DBTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_app.png.flat",
+        "source": "D:\\Work_Android\\DBTest\\app\\src\\main\\res\\drawable-mdpi\\ic_app.png"
+    },
+    {
+        "merged": "D:\\Work_Android\\DBTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_spinner_row.xml.flat",
+        "source": "D:\\Work_Android\\DBTest\\app\\src\\main\\res\\layout\\spinner_row.xml"
+    },
+    {
+        "merged": "D:\\Work_Android\\DBTest\\app\\build\\intermediates\\res\\merged\\debug\\layout-land_numpad.xml.flat",
+        "source": "D:\\Work_Android\\DBTest\\app\\src\\main\\res\\layout-land\\numpad.xml"
+    },
+    {
+        "merged": "D:\\Work_Android\\DBTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_insertspeed.xml.flat",
+        "source": "D:\\Work_Android\\DBTest\\app\\src\\main\\res\\layout\\insertspeed.xml"
+    }
+]

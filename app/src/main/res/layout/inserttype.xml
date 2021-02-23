@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" xmlns:android="http://schemas.android.com/apk/res/android">
+	<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical"> 
+		<View android:layout_height="1sp" android:layout_width="fill_parent" android:background="#808080"></View>
+
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:background="#eee"
+			android:text="Records to insert"
+			android:textAppearance="@android:style/TextAppearance.Material.Large"></TextView>
+	    <EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:inputType="number" android:id="@+id/etRecCnt" android:text="100"></EditText>
+		<View android:layout_height="1sp" android:layout_width="fill_parent" android:layout_marginTop="5sp" android:background="#808080"></View>
+
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:background="#eee"
+			android:text="Type of inserted value"
+			android:textAppearance="@android:style/TextAppearance.Material.Large"></TextView>
+	    <RadioGroup android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+			<RadioButton
+				android:id="@+id/rbInt"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:checked="true"
+				android:text="Integer"
+				android:textAppearance="@android:style/TextAppearance.Material.Medium"></RadioButton>
+
+			<RadioButton
+				android:id="@+id/rbLong"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Long"
+				android:textAppearance="@android:style/TextAppearance.Material.Medium"></RadioButton>
+
+			<RadioButton
+				android:id="@+id/rbDouble"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Double"
+				android:textAppearance="@android:style/TextAppearance.Material.Medium"></RadioButton>
+
+			<RadioButton
+				android:id="@+id/rbText"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Text"
+				android:textAppearance="@android:style/TextAppearance.Material.Medium"></RadioButton>
+		</RadioGroup>
+	    <LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_marginTop="10sp">
+	        <Button android:layout_height="wrap_content" android:id="@+id/btnOK" android:layout_width="fill_parent" android:layout_weight="1" android:text="@android:string/ok"></Button>
+	        <Button android:layout_height="wrap_content" android:id="@+id/btnCancel" android:layout_width="fill_parent" android:layout_weight="1" android:text="@android:string/cancel"></Button>
+	    </LinearLayout>
+	</LinearLayout>
+</ScrollView>

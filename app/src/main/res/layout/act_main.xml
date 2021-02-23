@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/panelTop">
+
+        <Button
+            android:id="@+id/btnInsertSpeed"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="Insert speed" >
+</Button>
+
+        <Button
+            android:id="@+id/btnInsertType"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="Insert type" />
+
+        <Button
+            android:id="@+id/btnDelete"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:maxLines="1"
+            android:text="Delete"
+            android:textColor="#FF0000" >
+
+</Button>
+
+        <Button
+            android:id="@+id/btnDbInfo"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="DB info" >
+</Button>
+
+        <Button
+            android:id="@+id/btnSqlTest"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="SQL test" >
+</Button>
+    </LinearLayout>
+    <include  android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/listHeader" layout="@layout/list_row" android:layout_below="@+id/panelTop" ></include>
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/panelBottom" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:inputType="textMultiLine" android:padding="5sp" android:clickable="false" android:textColor="#00CC00" android:text="*) Click on the header column to change sorting\n    Short press on the list item to edit price\n    Long pres on the item to edit or delete it"></TextView>
+    <ListView android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@android:id/list" android:layout_alignParentLeft="true" android:layout_below="@+id/listHeader" android:layout_above="@+id/panelBottom" android:fastScrollEnabled="true"></ListView>
+</RelativeLayout>

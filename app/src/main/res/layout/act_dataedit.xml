@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_alignParentBottom="true" android:layout_alignParentLeft="true" android:id="@+id/panelBottom">
+        <Button android:layout_height="wrap_content" android:id="@+id/btnOK" android:layout_width="fill_parent" android:layout_weight="1" android:text="@android:string/ok"></Button>
+        <Button android:layout_height="wrap_content" android:id="@+id/btnCancel" android:layout_width="fill_parent" android:layout_weight="1" android:text="@android:string/cancel"></Button>
+    </LinearLayout>
+	<TableLayout android:stretchColumns="1" android:padding="2pt" android:orientation="vertical" android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_above="@+id/panelBottom">
+		<TableRow android:layout_height="wrap_content" android:layout_width="wrap_content">
+			<TextView android:text="Short " android:layout_width="wrap_content" android:gravity="right" android:layout_height="wrap_content"></TextView>
+			<EditText android:layout_width="fill_parent" android:id="@+id/etShort" android:layout_height="wrap_content"></EditText>
+		</TableRow>
+		<TableRow android:layout_height="wrap_content" android:layout_width="wrap_content">
+			<TextView android:text="Name " android:layout_width="wrap_content" android:gravity="right" android:layout_height="wrap_content"></TextView>
+			<EditText android:layout_width="wrap_content" android:id="@+id/etName" android:layout_height="wrap_content"></EditText>
+		</TableRow>
+		<TableRow android:layout_height="wrap_content" android:layout_width="wrap_content">
+			<TextView android:text="Note " android:layout_width="wrap_content" android:gravity="right" android:layout_height="wrap_content"></TextView>
+			<EditText android:layout_width="wrap_content" android:inputType="textMultiLine" android:lines="2" android:id="@+id/etNote" android:layout_height="wrap_content"></EditText>
+		</TableRow>
+		<View android:layout_height="1sp" android:layout_marginBottom="5sp" android:layout_width="fill_parent" android:layout_marginTop="5sp" android:background="#808080"></View>
+		<TableRow android:layout_height="wrap_content" android:layout_width="wrap_content">
+			<TextView android:text="Price " android:layout_width="wrap_content" android:gravity="right" android:layout_height="wrap_content"></TextView>
+			<EditText android:layout_width="wrap_content" android:inputType="numberDecimal" android:id="@+id/etPrice" android:layout_height="wrap_content"></EditText>
+		</TableRow>
+	</TableLayout>
+</RelativeLayout>

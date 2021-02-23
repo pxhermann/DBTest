@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout 
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+        <TextView android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_width="wrap_content" android:text="Elm:" android:textSize="20sp" android:id="@+id/tvElm"></TextView>
+        <Spinner android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_width="fill_parent" android:id="@+id/spElm" android:layout_toRightOf="@+id/tvElm"></Spinner>
+        <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Tbl:" android:textSize="20sp" android:id="@+id/tvTbl" android:layout_below="@+id/spElm"></TextView>
+        <Spinner android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/spTbl" android:layout_below="@+id/spElm" android:layout_alignLeft="@+id/spElm"></Spinner>
+        <TextView android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_width="wrap_content" android:textSize="20sp" android:id="@+id/tvFld" android:layout_below="@+id/spTbl" android:text="Fld:"></TextView>
+        <Spinner android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/spFld" android:layout_below="@+id/spTbl" android:layout_alignLeft="@+id/spElm"></Spinner>
+        <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_below="@+id/spFld" android:text="Run" android:id="@+id/btnExec" android:layout_alignParentRight="true" android:textStyle="bold" android:textColor="#00C000"></Button>
+        <Button android:layout_height="wrap_content" android:id="@+id/btnClear" android:layout_below="@+id/btnExec" android:layout_alignParentRight="true" android:text="C" android:textStyle="bold" android:textSize="25sp" android:textColor="#FF0000" android:layout_width="wrap_content" android:layout_alignLeft="@+id/btnExec"></Button>
+        <EditText android:layout_below="@+id/spFld" android:id="@+id/etCmd" android:inputType="textMultiLine" android:gravity="top|left" android:layout_alignBottom="@+id/btnClear" android:layout_toLeftOf="@+id/btnExec" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_alignParentLeft="true"></EditText>
+        <View android:layout_below="@+id/etCmd" android:layout_width="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:background="#a0a0a0" android:layout_height="1pt" android:id="@+id/sep"></View>
+        <Button android:layout_width="wrap_content" android:id="@+id/btnPrevRec" android:text="&lt;&lt;" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:layout_height="wrap_content"></Button>
+        <Button android:id="@+id/btnNextRec" android:text="&gt;&gt;" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_alignParentBottom="true" android:layout_alignParentRight="true"></Button>
+        <TextView android:textSize="20sp" android:id="@+id/tvRecPos" android:text="0 / 0" android:layout_width="wrap_content" android:gravity="center_horizontal" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/btnNextRec" android:layout_alignTop="@+id/btnPrevRec" android:layout_toRightOf="@+id/btnPrevRec"></TextView>
+        <SeekBar android:id="@+id/seekRecPos" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/btnNextRec" android:layout_toRightOf="@+id/btnPrevRec" android:layout_alignParentBottom="true" android:layout_marginRight="10sp" android:layout_marginLeft="10sp" android:layout_below="@+id/tvRecPos"></SeekBar>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:background="#505050" android:layout_below="@+id/sep" android:layout_above="@+id/btnPrevRec">
+            <ListView android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/listRec" android:padding="3pt"></ListView>
+        </LinearLayout>
+</RelativeLayout>
